@@ -16,7 +16,7 @@ retropie_scripts_dir=$retropie_dir/scripts
 
 rm -rf "/tmp/hursty"
 mkdir -p "/tmp/hursty"
-git clone "https://github.com/RetroHursty69/HurstyThemes.git" "/tmp/hursty"
+git clone "https://github.com/LionelBergen/HurstyThemes.git" "/tmp/hursty"
 
 # Move files to proper directory
 
