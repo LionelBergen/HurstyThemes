@@ -34,8 +34,8 @@ else
     echo "made dir: $retropie_scripts_dir"
 fi
 
-cp /tmp/hursty/themerandom.sh /home/pi/scripts
-chmod 777 /home/pi/scripts/themerandom.sh
+cp /tmp/hursty/themerandom.sh $retropie_scripts_dir
+chmod 777 $retropie_scripts_dir/themerandom.sh
 
 # Update RetroPie gamelist.xml to add new entry
 cp /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml /opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml.bkp
